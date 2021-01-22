@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+$marginColor: #efefef;
+$outlineColor: #9baed9;
+$borderColor: #292e34;
+$paddingColor: #e3a624;
+$contentColor: #8ecea8;
+
+body {
+  margin: 0;
+}
+
+.section {
+  width: 100%;
+  height: 40vh;
+  border-bottom: 3px solid black;
+}
+
+#part-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container {
+  background-color: $marginColor;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: $paddingColor;
+  padding: 30px;
+  outline: 10px $outlineColor solid;
+  border: 10px $borderColor solid;
+  margin: 30px;
+}
+
+.box-content {
+  background-color: $contentColor;
+  width: 100%;
+  height: 100%;
+}
+
+ul#table-of-contents {
+  list-style: none;
+
+  li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+
+    .color {
+      display: block;
+      width: 40px;
+      height: 40px;
+      margin-right: 20px;
+    }
+  }
+}
+
+.position-box-1 {
+  width: 200px;
+  height: 200px;
+  background-color: $contentColor;
+}
+
+.position-box-2 {
+  width: 200px;
+  height: 200px;
+  background-color: $paddingColor;
+}
+
+#part-3 {
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p {
+    display: block;
+  }
+}
