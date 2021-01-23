@@ -4,18 +4,9 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    /* ... */
+    "../css": "/",
   },
-  plugins: [
-    // [
-    "@snowpack/plugin-sass",
-    // {
-    //   compilerOptions: {
-    //     sourceMap: false,
-    //   },
-    // },
-    // ],
-  ],
+  plugins: ["@snowpack/plugin-sass"],
   packageOptions: {
     /* ... */
   },
