@@ -11,7 +11,7 @@ body {
 
 .section {
   width: 100%;
-  height: 40vh;
+  min-height: 40vh;
   border-bottom: 3px solid black;
 }
 
@@ -24,6 +24,7 @@ body {
 
 .container {
   background-color: $marginColor;
+  margin: 20px;
 }
 
 .box {
