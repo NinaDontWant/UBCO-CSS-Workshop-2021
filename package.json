@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "css": "snowpack dev --config='./other/css.snowpack.config.js'",
-    "html": "snowpack dev --config='./other/html.snowpack.config.js'"
+    "css": "snowpack dev --config='./.config/css.snowpack.config.js'",
+    "html": "snowpack dev --config='./.config/html.snowpack.config.js'"
   },
   "author": "",
   "license": "ISC",
